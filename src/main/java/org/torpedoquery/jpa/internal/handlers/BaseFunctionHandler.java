@@ -52,7 +52,7 @@ public abstract class BaseFunctionHandler<T, F extends Function<T>> extends Abst
 	@Override
 	public F handleCall(Map<Object, QueryBuilder<?>> proxyQueryBuilders, Deque<MethodCall> methods) {
 
-		return handleValue(this, proxyQueryBuilders, methods.iterator(), value);
+		return (F)handleValue(this, proxyQueryBuilders, methods.iterator(), value);
 	}
 
 	@Override
