@@ -81,7 +81,7 @@
 				<configuration>
 					<instructions>
 						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-						<Import-Package>javassist.util.proxy;version="3.18.3-SNAPSHOT",javax.persistence;version="[1.99,3)",com.google.common.base;version="[8,13)",*</Import-Package>
+						<Import-Package>javassist.util.proxy,javax.persistence;version="[1.99,3)",com.google.common.base;version="[8,13)",*</Import-Package>
 					</instructions>
 				</configuration>
 			</plugin>
@@ -118,7 +118,7 @@
 			<groupId>org.javassist</groupId>
 			<artifactId>javassist</artifactId>
 			<version>3.18.3-SNAPSHOT</version>
-		</dependency>
+		</dependency>		
 		<dependency>
 			<groupId>org.eclipse.persistence</groupId>
 			<artifactId>javax.persistence</artifactId>
