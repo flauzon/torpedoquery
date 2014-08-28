@@ -117,13 +117,13 @@
 		<dependency>
 			<groupId>org.javassist</groupId>
 			<artifactId>javassist</artifactId>
-			<version>3.18.3-SNAPSHOT</version>
-		</dependency>		
+			<version>3.18.1-GA</version>
+		</dependency>			 
 		<dependency>
 			<groupId>org.eclipse.persistence</groupId>
 			<artifactId>javax.persistence</artifactId>
 			<version>2.1.0</version>
-		</dependency>
+		</dependency>		
 		<dependency>
 			<groupId>org.objenesis</groupId>
 			<artifactId>objenesis</artifactId>
